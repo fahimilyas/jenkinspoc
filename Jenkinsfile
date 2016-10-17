@@ -1,11 +1,10 @@
  node{
   
-  step{
-   stage ('Checkout')
-   {
-      echo 'Checkout code from version control'
-   }
+  stage ('Checkout')
+  {
+    echo 'Checkout code from version control'
   }
+ 
   
   parallel firstStep: {
    stage ('Build and Test 1')
