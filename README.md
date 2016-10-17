@@ -9,3 +9,5 @@ Copy public key output from dialog box instead of saving it to a file.
 
 For cloud-config.yaml, see https://coreos.com/os/docs/latest/cloud-config.html
 
+# To set up a slave
+https://hub.docker.com/r/jenkinsci/jnlp-slave/
