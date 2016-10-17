@@ -11,3 +11,7 @@ For cloud-config.yaml, see https://coreos.com/os/docs/latest/cloud-config.html
 
 # To set up a slave
 https://hub.docker.com/r/jenkinsci/jnlp-slave/
+
+# To set up nexus
+
+https://github.com/sonatype/docker-nexus3
