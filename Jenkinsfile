@@ -14,8 +14,10 @@
   parallel firstStep: {
    stage ('Run Unit Test')
    {
+    node('linux-only'){
      echo "Hello World 1"
      sleep time: 2, unit: 'MINUTES'
+    }
    }
   }, secondBranch: {
    stage ('Run Integration Test') 
